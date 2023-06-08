@@ -3,8 +3,8 @@ const {createApp} = Vue;
 createApp({
     data(){
         return{
-            message: 'Ciao da oggi cominciamo VueJs'
-
+            message: 'Ciao da oggi cominciamo VueJs',
+            image: './img/vueJs.png'
         }
     }
-}).mount('#message')
+}).mount('#app')
